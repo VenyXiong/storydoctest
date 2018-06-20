@@ -1,0 +1,17 @@
+{
+  "name": "storydoc",
+  "version": "1.0.0",
+  "description": "小故事开发指导文档",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve --port 8884",
+    "build": "gitbook build && mkdir -p _site && cp -rf _book/* _site/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mipstory",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "gitbook-cli": "^2.3.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "小故事开发文档",
+  "description": "小故事开发文档",
+  "author": "Mip 团队",
+  "language": "zh-hans",
+  "root": "doc",
+  "plugins": [
+    "expandable-chapters",
+    "splitter",
+    "atoc",
+    "editlink",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "http://gitlab.baidu.com/superframe/next-page-docs/edit/master/src",
+      "label": "编辑此页",
+      "multilingual": false
+    }
+  }
+}
